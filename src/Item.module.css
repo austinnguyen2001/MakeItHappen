@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    height: 11.5rem;
+    background: #17a2b8;
+    margin-bottom: 1rem;
+}
+
+.container__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__segment {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+
+.container__segment.end {
+    flex: 1;
+    background: #B8B3BE;
+}
+
+.container__ingredients {
+    overflow-y: auto;
+}
+
+.header__image {
+    width: 10rem;
+    height: 10rem;
+}
+
